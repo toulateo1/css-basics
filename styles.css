@@ -1,0 +1,32 @@
+/*ovo su stilovi za body element i unutar njega*/
+body {
+  color: red;
+  background-color: green;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+span {
+  font-size: 30px;
+}
+.yellow-text {
+  color: yellow;
+}
+
+.underline {
+  text-decoration: underline;
+}
+#drugi {
+  color: brown;
+}
+
+img {
+  width: 100px;
+}
+
+div > img {
+  width: 50px;
+}
