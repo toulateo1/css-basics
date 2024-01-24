@@ -7,85 +7,23 @@ body {
   height: 2000px;
 }
 
-h1 {
-  position: fixed;
-  top: 0;
-  height: 200px;
-  width: 250px;
-  background-color: green;
-  padding: 30px;
-  margin: 0 0 0 20%;
-  border: 10px solid orange;
-  font-size: 2em;
-  transition: background-color 0.3s ease, color 0.3s ease,
-    border-color 0.3s ease, height 0.3 ease;
-}
-
-h1:hover {
-  background-color: pink;
-  color: black;
-  border-color: aqua;
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: purple;
+  padding: 20px;
   height: 300px;
 }
-span {
-  position: absolute;
-  right: 50%;
-  bottom: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 
-  display: inline-block;
-  height: 100px;
-  width: 200px;
-  background-color: pink;
-  text-align: center;
-
-  /*Drugi način a isti rezultat*/
-  /*right:50%;
-  bottom: 50%;
-  transform: translate(50%, 50%) */
+.link {
+  background-color: orange;
 }
 
-a {
-  display: inline-block;
-  background-color: aqua;
-}
-
-.box {
-  background-color: blue;
-  width: 400px;
-  height: 400px;
-  margin: 50px;
-  position: relative;
-}
-
-p::before {
-  content: "";
-  color: purple;
-  width: 100%;
-  height: 4px;
-  background-color: purple;
-  display: inline-block;
-  position: absolute;
-  bottom: 90px;
-}
-
-li:first-child {
-  color: brown;
-}
-
-li:last-child {
-  color: blueviolet;
-}
-/*Mobiteli*/
-@media screen and (min-width: 768px) {
-  li {
-    color: green;
-  }
-}
-/*Tableti*/
-@media screen and (min-width: 1200px) {
-  li {
-    color: green;
-  }
+.flex-center-both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
